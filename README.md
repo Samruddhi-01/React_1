@@ -25,7 +25,6 @@ These instructions will help you set up and run the project on your local machin
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
-   
-2)npm install
-3)npm run dev
-4)npm run build
+   npm install
+   npm run dev
+   npm run build
