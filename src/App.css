@@ -1,0 +1,109 @@
+
+
+:root{
+  --red :#d01c28;
+  --grey :#2e2e2e;
+}
+*{
+  margin: 0;
+}
+
+button{
+  all : unset;
+  padding: 6px 16px;
+  background: var(--red);
+  height: 32px;
+  color: rgb(240, 237, 237);
+  font-weight: 500;
+  
+
+}
+.container{
+  margin: 0 auto;
+  max-width: 1280px;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.hero{
+  display: flex;
+  align-items: center;
+
+}
+.images img {
+  max-width: 100%; 
+  height: auto;    
+}
+.images {
+  display: flex; 
+  justify-content: right;
+  margin-top: 8px; /* Optional: some spacing */
+}
+
+.images img {
+  max-width: 300%; /* Responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+.hero{
+  align-items: center;
+}
+.Hero {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between left and right */
+  align-items: center; /* Center items vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.content {
+  flex: 1; /* Allow content to take up remaining space */
+  padding: 20px; /* Add some padding */
+  max-width: 600px; /* Optional: limit max width */
+  gap: 36px;
+}
+
+.images {
+  flex: 1; /* Allow image section to take up remaining space */
+  display: flex; /* Center image */
+  justify-content: center; /* Center image horizontally */
+}
+
+.images img {
+  max-width: 100%; /* Responsive */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 34px;
+}
+.content h1{
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 102px;
+}
+.content p{
+  font-weight: 600;
+  color: var(--grey);
+  margin: 0 0 34px 0;
+}
+.herobtn{
+  display:flex;
+  gap: 40px;
+  margin: 0 0 34px 0;
+  font-size:24px ;
+}
+.secondary-btn{
+  background-color: transparent;
+  color: var(--grey);
+  border: 1px solid gray;
+}
+.brandicon{
+ font-size: 14px;
+ margin-bottom:8px ;
+}
